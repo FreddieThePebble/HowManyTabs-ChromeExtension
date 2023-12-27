@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "How Many Tabs?",
+  "version": "1.0",
+  "description": "Displays the number of open tabs in the current window.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Click to count tabs"
+  }
+}

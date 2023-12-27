@@ -1,0 +1,1 @@
+chrome.windows.getCurrent({ populate: true }, function (currentWindow) {   const tabCount = currentWindow.tabs.length;   document.getElementById("tabCount").textContent = tabCount; });
